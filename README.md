@@ -68,7 +68,7 @@ It is however advisable to handle the connection delay, or the possibility that 
 
 ## Releasing your addon
 Here comes the sensitive part. This library is opensource. It can be used, copied, included in your addon and modified without restrictions.
-However it's not the same for BedrockBridge. You can add a link to [our download page](https://github.com/InnateAlpaca/BedrockBridge/releases) to your page.
+However it's not the same for BedrockBridge. You can add a link to [our download page](https://github.com/InnateAlpaca/BedrockBridge/releases) on your page.
 
 
 > [!WARNING]  
