@@ -28,6 +28,8 @@ bridgeDirect.events.directInitialize.subscribe(() => {
 
 If you copy the file, the first line of this code will probably look like this `import { bridgeDirect } from "./index.js"`.
 
+![direct_example](https://github.com/user-attachments/assets/d76bacbb-8c7a-4e21-ac28-9df864df438f)
+
 Be careful when using the library that the directInitialize event has been sent, otherwise trying to send messages will result in an error.
 
 1. A possible approach to this problem could be checking if the connection is ready before sending logs.
