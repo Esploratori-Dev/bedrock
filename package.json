@@ -1,0 +1,27 @@
+{
+  "name": "bedrock",
+  "version": "1.0.0",
+  "description": "This pack provides a library that can be used to send messages and embeds to discord form a bedrock bds server.",
+  "main": "dist/index.js",
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "bds",
+    "bedrockbridge",
+    "discord"
+  ],
+  "author": {
+    "name": "InnateAlpaca",
+    "email": "innatealpaca@esploratori.space",
+    "url": "https://github.com/Esploratori-Dev"
+  },
+  "publishConfig": {
+    "ignore": [
+      "src/"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@minecraft/server": "^1.14.0"
+  }
+}
