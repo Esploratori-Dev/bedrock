@@ -1,5 +1,5 @@
 # BridgeDirect
-This pack provides a library that can be used to send messages and embeds to discord form a bedrock bds server.
+This repository offers a library for sending messages and embeds from a Bedrock Dedicated Server (BDS) to Discord. 
 
 > [!NOTE]  
 > This class is intended to be used inside a Minecraft Bedrock scripting addon.
@@ -65,6 +65,10 @@ If your pack wants to provide additional discord capabilities to a well pre-esta
 If you are developing a pack mostly focused on the discord connection then probably the second solution is preferable.
 
 It is however advisable to handle the connection delay, or the possibility that BedrockBridge is not installed, by e.g. caching the messages untill the bridge is ready, or sending logs to the users if the connection hasn't been established for a long time (which means that there is something wrong). A typical setup delay would be 2-5 seconds.
+
+> [!IMPORTANT]  
+> BridgeDirect capabilities are not enabled by default on the *BedrockBridge* addon. They need to be enabled with a bridge-plugin.
+> We created a dedicated release of the pack with such addition already enabled marked as `Direct`. Make sure to download the right version, or handle enabling direct-addition yourself.
 
 ## Releasing your addon
 Here comes the sensitive part. This library is opensource. It can be used, copied, included in your addon and modified without restrictions.
